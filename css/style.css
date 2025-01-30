@@ -685,7 +685,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: .2em; }
     @media (max-width: 991.98px) {
       .team-vs .score {
-        font-size: 2rem;
+        font-size: 18px;
         left: 50%; } }
   .team-vs h3 {
     font-size: 20px;
@@ -716,6 +716,14 @@ h1, h2, h3, h4, h5,
       -webkit-transform: skew(-15deg);
       -ms-transform: skew(-15deg);
       transform: skew(-15deg); }
+  .team-img {
+    width: 250px !important;
+    height: 120px !important;
+  }
+
+  .team-vs .score {
+        font-size: 18px;
+        left: 48%; }
 
 .latest-news {
   padding: 100px 0; }
@@ -1118,3 +1126,14 @@ h1, h2, h3, h4, h5,
   .post-meta a {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+
+  @media (max-width: 576px) {
+    .team-img {
+      height: 50px !important;
+      width: 115px !important;
+    }
+
+    .team-vs .score {
+        font-size: 10px;
+        left: 50%; }
+  }
