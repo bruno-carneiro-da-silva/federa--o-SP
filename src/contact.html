@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Federação Paulista de Breaking &mdash; Danças esportivas</title>
+    <title>Federação Breaking SP &mdash; Danças esportivas</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -53,9 +53,9 @@
                   style="width: 119px; height: 70px"
                   alt="Logo"
                 />
-                FBSP
               </a>
             </div>
+            <a href="index.html" class="text-white"> BREAKING SP </a>
             <div class="ml-auto">
               <nav
                 class="site-navigation position-relative text-right"
@@ -67,7 +67,7 @@
                   <li>
                     <a href="index.html" class="nav-link">Página inicial</a>
                   </li>
-                    <li class="dropdown">
+                  <!-- <li class="dropdown">
                     <a
                       href="index.html"
                       class="nav-link dropdown-toggle"
@@ -81,9 +81,7 @@
                         >
                       </li>
                       <li>
-                        <a href="index.html" class="dropdown-item"
-                          >Balanços</a
-                        >
+                        <a href="index.html" class="dropdown-item">Balanços</a>
                       </li>
                       <li>
                         <a href="index.html" class="dropdown-item"
@@ -91,9 +89,9 @@
                         >
                       </li>
                     </ul>
-                  </li>
+                  </li> -->
                   <li>
-                    <a href="matches.html" class="nav-link">Campeonatos</a>
+                    <a href="matches.html" class="nav-link">Agenda</a>
                   </li>
                   <li>
                     <a href="players.html" class="nav-link">Filiados</a>
@@ -140,28 +138,42 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-7">
-              <form action="#">
+              <form id="contact-form">
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Nome" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Nome"
+                    required
+                  />
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Email" />
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                    required
+                  />
                 </div>
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
+                    id="subject"
                     placeholder="Assunto"
+                    required
                   />
                 </div>
                 <div class="form-group">
                   <textarea
-                    name=""
                     class="form-control"
-                    id=""
+                    id="message"
                     cols="30"
                     rows="10"
                     placeholder="Digite algo..."
+                    required
                   ></textarea>
                 </div>
                 <div class="form-group">
@@ -182,7 +194,9 @@
                 </li>
                 <li class="mb-2">
                   <strong class="text-white d-block">Email</strong>
-                  <a href="#">ricardo.cardoso@federacaobreakingsp.org.br </a>
+                  <a href="mailto:contato@federacaobreakingsp.org.br"
+                    >contato@federacaobreakingsp.org.br</a
+                  >
                 </li>
                 <li class="mb-2">
                   <strong class="text-white d-block"> Telefone </strong>
@@ -279,6 +293,11 @@
       <!-- endfooter -->
     </div>
     <!-- .site-wrap -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -294,7 +313,7 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
-
+    <script src="js/backend-data/emailjs.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

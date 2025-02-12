@@ -270,7 +270,7 @@ jQuery(document).ready(function ($) {
 
   var siteCountDown = function () {
     $("#date-countdown, #date-countdown2").countdown(
-      "2025/03/23",
+      "2025/02/01",
       function (event) {
         var $this = $(this).html(
           event.strftime(
