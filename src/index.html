@@ -101,7 +101,7 @@
                     <a href="matches.html" class="nav-link">Agenda</a>
                   </li>
                   <li><a href="players.html" class="nav-link">Filiados</a></li>
-                  <li><a href="single.html" class="nav-link">Sobre nós</a></li>
+                  <li><a href="about.html" class="nav-link">Sobre nós</a></li>
                   <!-- <li><a href="blog.html" class="nav-link">Blog</a></li> -->
                   <li><a href="contact.html" class="nav-link">Contato</a></li>
                 </ul>
@@ -124,17 +124,27 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-7 ml-auto">
-              <h1 class="text-white">Circuito Brasileiro <br> Etapa Campinas</h1>
+              <h1 class="text-white">
+                Campeonato Paulista <br />
+                de Breaking
+              </h1>
               <p>
-                Os melhores dançarinos do estado de São Paulo irão competir para
-                ver quem é o melhor.
+                É com grande satisfação que iniciaremos as inscrições para o Campeonato Paulista de Breaking 2025 – S. Paulo.
               </p>
               <div id="date-countdown"></div>
               <p>
-                <a href="#" class="btn btn-primary py-3 px-4 mr-3"
-                  >Se inscreva</a
+                <button
+                  onclick="alertFunction()"
+                  class="btn subscribe btn-primary py-3 px-4 mr-3"
                 >
-                <a href="#" class="more light">Saber Mais</a>
+                  Se inscreva
+                </button>
+                <a
+                  href="#"
+                  class="more subscribe light"
+                  onclick="alertFunction()"
+                  >Saber Mais</a
+                >
               </p>
             </div>
           </div>
@@ -298,14 +308,22 @@
                         class="d-flex align-items-center justify-content-around justify-content-between w-100"
                       >
                         <div class="team-1 text-center">
-                          <img src="images/logo-transparent.png" class="mb-4" alt="Image" />
+                          <img
+                            src="images/logo-transparent.png"
+                            class="mb-4"
+                            alt="Image"
+                          />
                           <h3>Organização</h3>
                         </div>
                         <div>
                           <span class="vs"><span>-</span></span>
                         </div>
                         <div class="team-2 text-center">
-                          <img src="images/logo-transparent.png" class="mb-4" alt="Image" />
+                          <img
+                            src="images/logo-transparent.png"
+                            class="mb-4"
+                            alt="Image"
+                          />
                           <h3>Organização</h3>
                         </div>
                       </div>
@@ -570,12 +588,12 @@
               <div class="widget mb-3">
                 <h3>Notícias</h3>
                 <ul class="list-unstyled links">
-                  <li><a href="#">Todas</a></li>
+                  <!-- <li><a href="#">Todas</a></li>
                   <li>
                     <a href="#">Noticias da Federação</a>
                   </li>
                   <li><a href="#">Mídia</a></li>
-                  <li><a href="#">Video</a></li>
+                  <li><a href="#">Video</a></li> -->
                   <!-- <li><a href="#">RSS</a></li> -->
                 </ul>
               </div>
@@ -584,13 +602,13 @@
               <div class="widget mb-3">
                 <h3>Ingressos</h3>
                 <ul class="list-unstyled links">
-                  <li><a href="#">Ingressos Online</a></li>
+                  <!-- <li><a href="#">Ingressos Online</a></li>
                   <li><a href="#">Pagamentos e Preços</a></li>
                   <li>
                     <a href="#">Contato &amp; Pedido</a>
                   </li>
                   <li><a href="#">Ingressos</a></li>
-                  <li><a href="#">Cupom</a></li>
+                  <li><a href="#">Cupom</a></li> -->
                 </ul>
               </div>
             </div>
@@ -600,9 +618,9 @@
                 <ul class="list-unstyled links">
                   <!-- <li><a href="#">Standings</a></li> -->
                   <li><a href="#">Campeonato brasileiro</a></li>
-                  <li><a href="#">Circuito paulista</a></li>
-                  <li><a href="#">WSDF Eliminatória Europa</a></li>
-                  <li><a href="#">Circuito Regional</a></li>
+                  <li><a href="#">Campeonato paulista</a></li>
+                  <!-- <li><a href="#">WSDF Eliminatória Europa</a></li> -->
+                  <!-- <li><a href="#">Circuito Regional</a></li> -->
                 </ul>
               </div>
             </div>
@@ -611,10 +629,16 @@
               <div class="widget mb-3">
                 <h3>Rede Sociais</h3>
                 <ul class="list-unstyled links">
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Youtube</a></li>
+                  <!-- <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Facebook</a></li> -->
+                  <li>
+                    <a
+                      href="https://www.instagram.com/federacaobreakingsp/?igsh=c3N3NmR0bm5ya2I4&utm_source=qr"
+                      target="_blank"
+                      >Instagram</a
+                    >
+                  </li>
+                  <!-- <li><a href="#">Youtube</a></li> -->
                 </ul>
               </div>
             </div>
@@ -630,7 +654,7 @@
                     document.write(new Date().getFullYear());
                   </script>
                   All rights reserved | This template is made with
-                  <i class="icon-heart" aria-hidden="true"></i>
+                  <!-- <i class="icon-heart" aria-hidden="true"></i> -->
                   by
                   <a
                     href="https://github.com/bruno-carneiro-da-silva"
@@ -664,5 +688,6 @@
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
     <script src="js/backend-data/index.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

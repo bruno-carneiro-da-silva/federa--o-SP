@@ -1,6 +1,8 @@
-FROM juvabit/federacaowebapp:latest
-
-COPY ./src /usr/share/nginx/html
-
+FROM nginx:stable-alpine as SETUP
 EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+WORKDIR /usr/share/nginx/html
+COPY . .
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
+
+# * No diretório do dockerfile execute o comando:
+# docker build . -t juvabit/federacaowebapp:latest

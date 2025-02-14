@@ -7,6 +7,18 @@ AOS.init({
 jQuery(document).ready(function ($) {
   "use strict";
 
+  var alertFunction = function () {
+    $(".subscribe").on("click", function () {
+      Swal.fire({
+        title: "Obrigado pelo seu interesse!",
+        text: "Em breve iremos abrir as inscrições e definir as datas do evento.",
+        icon: "success",
+        confirmButtonText: "Perfeito!",
+      });
+    });
+  };
+  alertFunction();
+
   var siteMenuClone = function () {
     $(".js-clone-nav").each(function () {
       var $this = $(this);
