@@ -129,7 +129,8 @@
                 de Breaking
               </h1>
               <p>
-                É com grande satisfação que iniciaremos as inscrições para o Campeonato Paulista de Breaking 2025 – S. Paulo.
+                É com grande satisfação que iniciaremos as inscrições para o
+                Campeonato Paulista de Breaking 2025 – S. Paulo.
               </p>
               <div id="date-countdown"></div>
               <p>
@@ -669,6 +670,70 @@
         </div>
       </footer>
       <!-- endfooter -->
+      <!-- Modal -->
+    </div>
+    <div
+      id="cautionModal"
+      class="modal absolute fade"
+      tabindex="-1"
+      role="dialog"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Comunicado Importante!</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <p>
+              A Federação BreakingSP através deste comunicado informa que os/as
+              Atletas de Breaking que residem no território que abrange o Estado
+              de São Paulo e tem sua filiação como Atleta nessa modalidade
+              esportiva a princípio efetivada primeiramente na confederação
+              nacional de dança desportiva a saber a CNDD neste ano de 2025
+              devem exclusivamente renovar sua filiação na Federação BreakingSP
+              que é a federação oficial do estado filiada a CNDD para poder
+              participar de eventos e ações promovidas pela mesma.
+            </p>
+            <p>
+              Se você já se encontra com sua filiação vencida entre em contato
+              com a BreakingSP no whatsapp
+              <a
+                href="https://wa.me/5519993497067?text=Ol%C3%A1%2C%20eu%20vim%20do%20site.%20Gostaria%20de%20saber%20mais%20sobre%20a%20federa%C3%A7%C3%A3o%20e%20como%20funciona%20os%20processos%20de%20filiação."
+                target="_blank"
+              >
+                +55 (19) 99349-7067
+              </a>
+              ou mande um email na pagina de <a href="./contact.html">contato</a> para o devido preenchimento do formulário de filiação e renovação,
+              caso necessário, para poder ser gerado seu NI estadual que será
+              válido tanto para as competições Estaduais quanto para as
+              Nacionais.
+            </p>
+            <p>
+              <strong>Observação:</strong> Independente se você estiver ativo
+              com a CNDD, você ainda sim deverá preencher o formulário de
+              filiação para compor o banco de Atletas para gerar seu NI
+              estadual.
+            </p>
+            <p><strong>ATENCIOSAMENTE BREAKINGSP</strong></p>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Confirmar
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- .site-wrap -->
 
@@ -689,5 +754,10 @@
     <script src="js/backend-data/index.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        $("#cautionModal").modal("show");
+      });
+    </script>
   </body>
 </html>

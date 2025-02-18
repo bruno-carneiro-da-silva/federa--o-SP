@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5,
 
 .site-navbar {
   margin-bottom: 0px;
-  z-index: 1999;
+  z-index: 1030;
   position: absolute;
   width: 100%; }
   .site-navbar .container-fluid {
@@ -882,6 +882,14 @@ h1, h2, h3, h4, h5,
     align-items: center;
     z-index: 1;
     backdrop-filter: blur(10px);
+  }
+
+  .modal{
+    z-index: 1050;
+  }
+
+  .modal-backdrop {
+    z-index: 1040;
   }
 
   .overlay-text h2 {
