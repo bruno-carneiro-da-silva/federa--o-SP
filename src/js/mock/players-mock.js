@@ -37,7 +37,7 @@ const names = [
   "BGIRL KEKÉ",
 ];
 
-export const players = [
+const players = [
   {
     id: 1,
     imgSrc: "images/raphael-mittendorfer-GYt9lzMR2Sw-unsplash.jpg",
@@ -400,3 +400,148 @@ export const players = [
     name: names[35],
   },
 ];
+
+const playersInsights = [
+  {
+    id: 1,
+    imgSrc: "images/players/marininha.jpg",
+    name: "BGIL MARININHA",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 22,
+      minutesPlayed: 1256,
+      goals: 30,
+      assists: 41,
+      jerseyNumber: 10,
+    },
+    percentages: {
+      possing: 62,
+      tackles: 39,
+      dribbling: 77,
+    },
+  },
+  {
+    id: 2,
+    imgSrc: "images/players/debbkilla-1.jpg",
+    name: "BGIRL DEBB KILA",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+  {
+    id: 3,
+    imgSrc: "images/players/nix.jpeg",
+    name: "BGIRL NIX",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+  {
+    id: 3,
+    imgSrc: "images/players/richard-1.jpg",
+    name: "BBOY RICHARD",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+  {
+    id: 4,
+    imgSrc: "images/players/zym.jpg",
+    name: "BBOY ZYM",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+  {
+    id: 6,
+    imgSrc: "images/players/lulla.jpg",
+    name: "BBOY LULLA",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+  {
+    id: 7,
+    imgSrc: "images/players/monge.jpeg",
+    name: "BBOY MONGE",
+    role: "ADULTO",
+    description:
+      "There are so many sports available in the world nowadays, but we can categorize them by the numbers of players, the three main categories are individual sport, dual sport.",
+    status: {
+      gamesPlayed: 23,
+      minutesPlayed: 987,
+      goals: 26,
+      assists: 55,
+      jerseyNumber: 8,
+    },
+    percentages: {
+      possing: 56,
+      tackles: 34,
+      dribbling: 68,
+    },
+  },
+];
+
+export { players, playersInsights };

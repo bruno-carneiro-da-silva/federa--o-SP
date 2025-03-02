@@ -1,4 +1,4 @@
-import { players } from "../mock/players-mock.js";
+import { players, playersInsights } from "../mock/players-mock.js";
 
 function playersData() {
   const container = document.getElementById("players-container");
@@ -78,6 +78,7 @@ function initCarousel() {
 playersData();
 initCarousel();
 
+
 // (() => {
 //   "use-strict";
 
@@ -127,3 +128,6 @@ initCarousel();
 
 //   themeSwiter.init();
 // })();
+
+
+
