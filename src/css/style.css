@@ -814,7 +814,9 @@ h1, h2, h3, h4, h5,
       width: 100%; }
 
 .video-media {
-  position: relative; }
+  position: relative;
+  height: 300px !important;
+ }
   .video-media:before {
     position: absolute;
     content: "";
@@ -822,7 +824,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); }
+    background: rgba(0, 0, 0, 0.8); }
   .video-media .play-button {
     position: absolute;
     display: block;
@@ -1582,7 +1584,7 @@ h1, h2, h3, h4, h5,
   }
 }
 .profile-page .content__button {
-  /* margin: 1rem; */
+  margin: 1rem;
   text-align: center;
   order: 4;
 }
@@ -2500,7 +2502,7 @@ h1, h2, h3, h4, h5,
 
 .rts-player-details-section .player-details-single .player-picture {
     position: relative;
-    width: 600px;
+    width: 800px;
     height: unset;
 }
 

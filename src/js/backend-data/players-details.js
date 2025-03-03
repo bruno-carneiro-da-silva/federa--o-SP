@@ -13,7 +13,7 @@ function playerDetails() {
               <h2 class="player-name">${player.name}</h2>
               <h3 class="player-role">${player.role}</h3>
               <p>${player.description}</p>
-              <a href="player-details.html" class="more-details-btn">MAIS DETALHES <i class="fa fa-arrow-right ml--5"></i></a>
+              <a href="players.html" class="more-details-btn">MAIS DETALHES <i class="fa fa-arrow-right ml--5"></i></a>
             </div>
             <div class="player-status-area">
               <div class="status-box">

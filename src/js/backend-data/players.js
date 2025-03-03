@@ -7,7 +7,7 @@ function playersData() {
     const itemDiv = document.createElement("div");
     itemDiv.className = "item";
     itemDiv.innerHTML = `
-              <div class="">
+              <div>
                 <div class="video-media">
                   <img
                     src="${player.imgSrc}"
@@ -47,13 +47,14 @@ function playersData() {
       modal.find(".content__title h1").text(player.name);
       modal
         .find(".content__avatar")
-        .css("background-image", `url(${player.imgSrc})`);
+        .css("background-image", `url(images/user.png)`);
 
       modal.find(".content__title span").text(player.city);
       modal.find(".content__description").html(`
         <p>Categoria: ${player.category || "Sem categoria"}</p>
         <p>NI: ${player.NI || "NI não informado"}</p>
         <p>Ranking: ${player.position || "Posição não informada"}</p>
+        <p>Pontos: ${player.points || "Pontuação não informada"}</p>
       `);
       modal.find("#videoFrame").attr("src", videoUrl);
     }
@@ -77,7 +78,6 @@ function initCarousel() {
 }
 playersData();
 initCarousel();
-
 
 // (() => {
 //   "use-strict";
@@ -128,6 +128,3 @@ initCarousel();
 
 //   themeSwiter.init();
 // })();
-
-
-
