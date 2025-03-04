@@ -813,6 +813,11 @@ h1, h2, h3, h4, h5,
     .latest-news .post-entry:hover:before {
       width: 100%; }
 
+
+.img-fluid {
+  max-width: 100% !important;
+  height: auto !important; }
+
 .video-media {
   position: relative;
   height: 300px !important;
@@ -824,7 +829,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.8); }
+    background: rgba(0, 0, 0, 0.6); }
   .video-media .play-button {
     position: absolute;
     display: block;
@@ -1509,7 +1514,7 @@ h1, h2, h3, h4, h5,
 }
 @media (max-width: 990px) {
   .profile-page .content__title {
-    margin-top: 1.5rem;
+    margin-top: 3.5rem;
   }
 }
 .profile-page .content__title h1 {

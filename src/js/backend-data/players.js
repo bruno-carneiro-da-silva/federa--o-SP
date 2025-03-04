@@ -47,7 +47,7 @@ function playersData() {
       modal.find(".content__title h1").text(player.name);
       modal
         .find(".content__avatar")
-        .css("background-image", `url(images/user.png)`);
+        .css("background-image", `url(${player.imgSrc})`);
 
       modal.find(".content__title span").text(player.city);
       modal.find(".content__description").html(`

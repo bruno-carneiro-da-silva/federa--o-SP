@@ -20,26 +20,26 @@ function playerDetails() {
                 <span class="box-title">2024-22 STATUS</span>
                 <div class="status-item">
                   <span class="status-name">Técnica</span>
-                  <span class="status-number">${player.status.gamesPlayed}</span>
+                 <!-- <span class="status-number">${player.status.gamesPlayed}</span> -->
                 </div>
                 <div class="status-item">
                   <span class="status-name">Vocabulário</span>
-                  <span class="status-number">${player.status.minutesPlayed}</span>
+                  <!-- <span class="status-number">${player.status.minutesPlayed}</span> -->
                 </div>
                 <div class="status-item">
                   <span class="status-name">Originalidade</span>
-                  <span class="status-number">${player.status.goals}</span>
+                  <!-- <span class="status-number">${player.status.goals}</span> -->
                 </div>
                 <div class="status-item">
                   <span class="status-name">Execução</span>
-                  <span class="status-number">${player.status.assists}</span>
+                 <!-- <span class="status-number">${player.status.assists}</span> -->
                 </div>
                 <div class="status-item">
                   <span class="status-name">Musicalidade</span>
-                  <span class="status-number">${player.status.jerseyNumber}</span>
+                  <!-- <span class="status-number">${player.status.jerseyNumber}</span> -->
                 </div>
               </div>
-              <div class="status-percentage">
+              <!-- <div class="status-percentage">
                 <div class="sp-item">
                   <span class="per">${player.percentages.possing}<span>%</span></span>
                   <span class="title">POSSING</span>
@@ -51,7 +51,7 @@ function playerDetails() {
                 <div class="sp-item">
                   <span class="per">${player.percentages.dribbling}<span>%</span></span>
                   <span class="title">DRIBBLING</span>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
